@@ -1,2 +1,2 @@
 # ML-roadmap
-for daily progress and projects of ML
+for roadmap progress and projects 
