@@ -1,0 +1,157 @@
+{
+    "overview": {
+        "rows": 891,
+        "columns": 12,
+        "column_names": [
+            "PassengerId",
+            "Survived",
+            "Pclass",
+            "Name",
+            "Sex",
+            "Age",
+            "SibSp",
+            "Parch",
+            "Ticket",
+            "Fare",
+            "Cabin",
+            "Embarked"
+        ],
+        "data_types": {
+            "PassengerId": "int64",
+            "Survived": "int64",
+            "Pclass": "int64",
+            "Name": "object",
+            "Sex": "object",
+            "Age": "float64",
+            "SibSp": "int64",
+            "Parch": "int64",
+            "Ticket": "object",
+            "Fare": "float64",
+            "Cabin": "object",
+            "Embarked": "object"
+        }
+    },
+    "missing_values": {
+        "PassengerId": 0,
+        "Survived": 0,
+        "Pclass": 0,
+        "Name": 0,
+        "Sex": 0,
+        "Age": 177,
+        "SibSp": 0,
+        "Parch": 0,
+        "Ticket": 0,
+        "Fare": 0,
+        "Cabin": 687,
+        "Embarked": 2
+    },
+    "numeric_summary": {
+        "PassengerId": {
+            "count": 891.0,
+            "mean": 446.0,
+            "std": 257.3538420152301,
+            "min": 1.0,
+            "25%": 223.5,
+            "50%": 446.0,
+            "75%": 668.5,
+            "max": 891.0
+        },
+        "Survived": {
+            "count": 891.0,
+            "mean": 0.3838383838383838,
+            "std": 0.4865924542648585,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 1.0
+        },
+        "Pclass": {
+            "count": 891.0,
+            "mean": 2.308641975308642,
+            "std": 0.8360712409770513,
+            "min": 1.0,
+            "25%": 2.0,
+            "50%": 3.0,
+            "75%": 3.0,
+            "max": 3.0
+        },
+        "Age": {
+            "count": 714.0,
+            "mean": 29.69911764705882,
+            "std": 14.526497332334044,
+            "min": 0.42,
+            "25%": 20.125,
+            "50%": 28.0,
+            "75%": 38.0,
+            "max": 80.0
+        },
+        "SibSp": {
+            "count": 891.0,
+            "mean": 0.5230078563411896,
+            "std": 1.1027434322934275,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 1.0,
+            "max": 8.0
+        },
+        "Parch": {
+            "count": 891.0,
+            "mean": 0.38159371492704824,
+            "std": 0.8060572211299559,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 0.0,
+            "max": 6.0
+        },
+        "Fare": {
+            "count": 891.0,
+            "mean": 32.204207968574636,
+            "std": 49.693428597180905,
+            "min": 0.0,
+            "25%": 7.9104,
+            "50%": 14.4542,
+            "75%": 31.0,
+            "max": 512.3292
+        }
+    },
+    "categories": {
+        "Name": {
+            "Braund, Mr. Owen Harris": 1,
+            "Cumings, Mrs. John Bradley (Florence Briggs Thayer)": 1,
+            "Heikkinen, Miss. Laina": 1,
+            "Futrelle, Mrs. Jacques Heath (Lily May Peel)": 1,
+            "Allen, Mr. William Henry": 1
+        },
+        "Sex": {
+            "male": 577,
+            "female": 314
+        },
+        "Ticket": {
+            "347082": 7,
+            "1601": 7,
+            "CA. 2343": 7,
+            "3101295": 6,
+            "CA 2144": 6
+        },
+        "Cabin": {
+            "G6": 4,
+            "C23 C25 C27": 4,
+            "B96 B98": 4,
+            "F2": 3,
+            "D": 3
+        },
+        "Embarked": {
+            "S": 644,
+            "C": 168,
+            "Q": 77
+        }
+    },
+    "cleaning_suggestions": [
+        "Column 'Age' has 177 missing values \u2192 consider filling or dropping.",
+        "Column 'Cabin' has 687 missing values \u2192 consider filling or dropping.",
+        "Column 'Embarked' has 2 missing values \u2192 consider filling or dropping."
+    ]
+}
