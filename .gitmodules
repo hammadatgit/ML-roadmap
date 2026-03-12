@@ -1,0 +1,3 @@
+[submodule "datasense-project"]
+	path = datasense-project
+	url = https://github.com/hammadatgit/datasense-project.git
